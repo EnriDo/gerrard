@@ -16,171 +16,160 @@
     <title>Portfolio | Ludiflex</title>
 </head>
 <body>
-   <div class="container">
-    <!-- --------------- HEADER --------------- -->
-      <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Geri</p>
-            <span>.</span>
-        </div>
-        <div class="nav-menu" id="myNavMenu">
-            <ul class="nav_menu_list">
-                <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Home</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#Materi" class="nav-link">Materi</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#projects" class="nav-link">Projects</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <div class="circle"></div>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div>
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-        </div>
-      </nav>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Geri</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#Materi" class="nav-link">Materi</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Lampiran</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Kontak</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Selamat Belajar <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
 
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Arsitektur Jaringan Komputer</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Halo! Saya Gerrard Enriheart Darondo</p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Perkenalkan saya Gerrard Enriheart Darondo dari kelas D3SI4702</p>
+                        <p>dengan NIM 607012300060, yang dimana saya akan memaparkan materi</p>
+                        <p>Perangkat Jaringan yaitu Bridge. Tujuan saya untuk memenuhi Assessment</p>
+                        <p>Kajian 3 Mata Kuliah Arsitektur Jaringan Komputer yang diampu oleh bapak Tedi Gunawan</p>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-dribbble"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="pasfoto.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+            <!-- -------------- Materi BOX ---------------- -->
+            <section class="section" id="Materi">
+                <div class="top-header">
+                    <h1>Materi</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="materi-info">
+                            <h3>Fungsi Bridge</h3>
+                            <p>Pada dasarnya bridge digunakan sebagai <mark>alat untuk menggabungkan dua jaringan yang berbeda.</mark> Contohnya yaitu penggabungan antara kabel serat optik dengan unshielded twisted pair (UTP), atau ethernet dengan token ring.</p>
+                            <br/>
+                            <p><strong>- Penghubung Dua Jaringan Terpisah</strong></p>
+                            <br/> <mark>Bridge memungkinkan dua buah jaringan yang terpisah jarak bisa dihubungkan sehingga memiliki kapasitas yang lebih besar.</mark> Misalnya dua gedung perusahaan yang dibangun secara terpisah dan jaraknya cukup jauh. Masing-masing gedung tentu memiliki jaringan LAN yang terpisah <br/>
+                            <br/>
+                            <p><strong>- Mengurangi Beban Jaringan</strong></p>
+                            <br/> Fungsi bridge selanjutnya yaitu untuk mengurangi beban jaringan sekaligus mengakomodasinya dengan lebih baik. <mark>Fungsi ini sangat berguna terutama ketika jaringan diakses oleh banyak pengguna secara bersamaan. Kinerja dan performa jaringan jelas akan terhambat jika menggunakan satu LAN tunggal saja.</mark> <br/>
+                            <br/>
+                            <p><strong>- Otonomi Masing-masing Jaringan</strong></p>
+                            <br/> Fungsi bridge lainnya yaitu otonomi pada masing-masing jaringan. <mark>Fungsi ini bisa dirasakan pada jaringan perusahaan yang memiliki sejumlah department dengan kepentingan dan tujuan berbeda.</mark> Sebut saja seperti komputer pribadi, server, workstation, dan sebagainya. Semua kepentingan dan tujuan tersebut bisa dihubungkan dengan memanfaatkan bridge. <br/>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="materi-info">
+                            <h3>Pengertian Bridge</h3>
+                            <p>Bridge atau network bridge adalah sebuah <mark>alat yang digunakan untuk membuat segmen dan memperluas suatu jaringan.</mark> Penggunaan bridge memungkinkan beberapa jaringan terpisah dapat dihubungkan secara aman, termasuk jaringan LAN. Selain itu, <mark>bridge juga mampu menghubungkan jaringan dengan tipe yang sama maupun berbeda</mark>, misalnya ethernet dan fast ethernet.</p>
+                            <br/>
+                            <p>Bridge pada umumnya menggunakan topologi tree dimana hanya terdapat satu rute untuk berbagai tujuan transmisi. Alat ini bekerja di dalam model link layer OSI atau Open System Interconnection. <mark>Oleh karena itu, komputer dengan jaringan transmission mode maupun medium access control yang berbeda tetap bisa dihubungkan.</mark></p>
+                            <br/>
+                            <p>Bukan itu saja, <mark>bridge mampu mempelajari setiap alamat link yang dimiliki oleh perangkat komputer yang terhubung dengannya.</mark> Hal ini membuat bridge dapat mengatur alur frame berdasarkan alamat link. Dengan kata lain, trafik data pada sebuah jaringan bisa diatur tanpa perlu melakukan broadcast ulang.</p>
+                        </div>
+                    </div>
+               </div>
+            </br>
+                <div class="row">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Gambar Perangkat Bridge</h3>
+                            <img width="400px" src="gambarbridge.png" alt="Bridge">
+                        </div>
+                        <div class="skills-list">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- -------------- MAIN ---------------- -->
-    <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
-       <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="featured-text-card">
-                <span>Arsitektur Jaringan Komputer</span>
-            </div>
-            <div class="featured-name">
-                <p>Halo! Saya Gerrard Enriheart Darondo
-                    
-                    </p>
-            </div>
-            <div class="featured-text-info">
-                <p>NIM : 607012300060 Kelas : D3SI47-02
-                </p>
-            </div>
-            <div class="social_icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-dribbble"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
-            </div>
-          </div>
-          <div class="featured-image">
-            <div class="image">
-                <img src="pasfoto.jpg" alt="avatar">
-            </div>
-          </div>
-          <div class="scroll-icon-box">
-            <a href="#about" class="scroll-btn">
-                <i class="uil uil-mouse-alt"></i>
-                <p>Scroll Down</p>
-            </a>
-          </div>
-
-       </section>
-       <!-- -------------- Materi BOX ---------------- -->
-     <section class="section" id="Materi">
+            <!-- -------------- PROJECT BOX ---------------- -->
+<section class="section" id="projects">
     <div class="top-header">
-        <h1>Materi</h1>
+        <h1>Lampiran</h1>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="materi-info">
-                <h3>Fungsi Bridge</h3>
-                <p>Pada dasarnya bridge digunakan sebagai alat untuk menggabungkan dua jaringan yang berbeda. Contohnya yaitu penggabungan antara kabel serat optik dengan unshielded twisted pair (UTP), atau ethernet dengan token ring.</p>
-                <br/>
-                <p><strong>Penghubung Dua Jaringan Terpisah</strong></p>
-                <br/> Bridge memungkinkan dua buah jaringan yang terpisah jarak bisa dihubungkan sehingga memiliki kapasitas yang lebih besar. Misalnya dua  gedung perusahaan yang dibangun secara terpisah dan jaraknya cukup jauh. Masing-masing gedung tentu memiliki jaringan LAN yang terpisah <br/>
-                <br/>
-                <p><strong>Mengurangi Beban Jaringan</strong></p>
-                <br/> Fungsi bridge selanjutnya yaitu untuk mengurangi beban jaringan sekaligus mengakomodasinya dengan lebih baik. Fungsi ini sangat berguna terutama ketika jaringan diakses oleh banyak pengguna secara bersamaan. Kinerja dan performa jaringan jelas akan terhambat jika menggunakan satu LAN tunggal saja. <br/>
-                <br/>
-                <p><strong>Otonomi Masing-masing Jaringan</strong></p>
-                <br/> Fungsi bridge lainnya yaitu otonomi pada masing-masing jaringan. Fungsi ini bisa dirasakan pada jaringan perusahaan yang memiliki sejumlah department dengan kepentingan dan tujuan berbeda. Sebut saja seperti komputer pribadi, server, workstation, dan sebagainya. Semua kepentingan dan tujuan tersebut bisa dihubungkan dengan memanfaatkan bridge. <br/>
+    div class="project-container">
+        <a href="607012300060_Gerrard%20Enriheart%20Darondo.pdf" target="_blank">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Tutorial Hosting</h3>
             </div>
+        </a>
+        <div class="project-box">
+            <i class="uil uil-users-alt"></i>
+            <h3>Clients</h3><
         </div>
-        <div class="col">
-            <div class="materi-info">
-                <h3>Pengertian Bridge</h3>
-                <p>Bridge atau network bridge adalah sebuah alat yang digunakan untuk membuat segmen dan memperluas suatu jaringan. Penggunaan bridge memungkinkan beberapa jaringan terpisah dapat dihubungkan secara aman, termasuk jaringan LAN. Selain itu, bridge juga mampu menghubungkan jaringan dengan tipe yang sama maupun berbeda, misalnya ethernet dan fast ethernet.</p>
-                <br/>
-                <p>Bridge pada umumnya menggunakan topologi tree dimana hanya terdapat satu rute untuk berbagai tujuan transmisi. Alat ini bekerja di dalam model link layer OSI atau Open System Interconnection. Oleh karena itu, komputer dengan jaringan transmission mode maupun medium access control yang berbeda tetap bisa dihubungkan.</p>
-                <br/>
-                <p>Bukan itu saja, bridge mampu mempelajari setiap alamat link yang dimiliki oleh perangkat komputer yang terhubung dengannya. Hal ini membuat bridge dapat mengatur alur frame berdasarkan alamat link. Dengan kata lain, trafik data pada sebuah jaringan bisa diatur tanpa perlu melakukan broadcast ulang.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="skills-box">
-            <div class="skills-header">
-                <h3>Bridge</h3>
-                <img width="200px" src="gambar bridge.jpg" alt="">
-            </div>
-            <div class="skills-list">
-                <p></p>
-            </div>
+        <div class="project-box">
+            <i class="uil uil-award"></i>
+            <h3>Experience</h3>
+            <label>7+ Years in the field</label>
         </div>
     </div>
 </section>
 
 
-       <!-- -------------- PROJECT BOX ---------------- -->
-
-       <section class="section" id="projects">
-          <div class="top-header">
-              <h1>Projects</h1>
-          </div>
-          <div class="project-container">
-            <div class="project-box">
-                <i class="uil uil-briefcase-alt"></i>
-                <h3>Completed</h3>
-                <label>15+ Finished Projects</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-users-alt"></i>
-                <h3>Clients</h3>
-                <label>25+ Happy Clients</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-award"></i>
-                <h3>Experience</h3>
-                <label>7+ Years in the field</label>
-            </div>
-          </div>
-       </section>
-
-       <!-- -------------- CONTACT BOX ---------------- -->
-
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Get in touch</h1>
-            <span>Do you have a project in your mind, contact me here</span>
-          </div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: gerrardheart5.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +62 819 3444 0209</p>
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Terima Kasih !</h1>
+                    <span>Semoga Bermanfaat Teman - Teman</span>
                 </div>
-             </div>
-             <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: gerrardheart5.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +62 819 3444 0209</p>
+                        </div>
                     </div>
-                    <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
                    
